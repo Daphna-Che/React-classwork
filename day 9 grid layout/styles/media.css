@@ -1,0 +1,38 @@
+.mine {
+    height: 400px;
+    background-color: teal;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content {
+    height: 400px;
+    width: 100%;
+    background-color: cyan;
+}
+
+@media screen and (max-width: 500px) {
+    .mine {
+        background-color: lawngree;
+        font-size: 52px;
+    }
+    
+    .content {
+        background-color: darkorange;
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:502px){
+    .mine{
+        background-color: hotpink;
+        height: 600px;
+    }
+
+    .content{
+        background-color: purple;
+        height: 300px;
+        font-size: 44px;
+    }
+    
+}

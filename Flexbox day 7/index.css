@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(182, 180, 135);
+}
+
+.flex-container > div {
+    background-color: mediumslateblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#one{
+    order: six;
+}
+
+#two {
+    order: one;
+    flex-shrink: 4px;
+}
+
+#three {
+    order: five;
+    /* flex-basis: 10px; */
+}
+
+#four {
+    order:  three;
+    flex-grow: 1;
+}
+
+#five {
+    order: four;
+}
+
+#six {
+    order: two;
+    align-self: flex-start;
+}

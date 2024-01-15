@@ -1,0 +1,59 @@
+/* p {
+    border: 3px solid maroon;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border: 3px solid blueviolet;
+    padding: 0px;
+}
+
+h3 {
+    padding: 32px 20px;
+    margin: 44px;
+    align-self: center;
+    border: 2px solid goldenrod;
+} */
+
+/* positioning in css */
+
+div {
+    position: relative;
+    border: 3px solid hotpink;
+    height: 200px;
+    width: 200px; 
+}
+
+h3{ 
+    border: 2px double lemonchiffon;
+    position: absolute;
+    top: 40px;
+    right: 32px;
+    }
+
+    #content{
+        position: sticky;
+        bottom: 66px;
+        color: bisque;
+        font-size: 56px;
+        
+    }
+
+    #lonely {
+        position: static;
+        bottom: 20px;
+        color: burlywood;
+        font-size: 50px;
+    }
+
+    .easy {
+    position: fixed;
+    top: 0px;
+    color: darkgoldenrod;
+    font-size: 50px;
+    z-index: 9;
+}

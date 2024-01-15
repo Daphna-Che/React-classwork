@@ -1,0 +1,134 @@
+.parent {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #7fffd4;
+    text-align: center;
+    gap: 5px;
+}
+
+.columnone{
+display: flex;
+flex-direction: column;
+border: 2px solid rgb(214, 96, 17);
+width: 25%;
+height: 500px;
+gap: 5px;
+}
+
+.columnonewrapper {
+    display: flex;
+    /* flex-direction: column; */
+    height: 350px;
+    width: 100%;
+    gap: 5px;
+}
+
+.columnonewrapper > div {
+    width: 100%;
+}
+
+.columnoneseven {
+    display: flex;
+    flex-direction: column;
+    height: 350;
+    gap: 5px;
+}
+
+.one {
+    background-color: bisque;
+   height: 175px;
+   
+}
+
+.seven {
+    background-color: burlywood;
+   height: 175px;
+   
+}
+
+.two {
+    background-color: crimson;
+    
+}
+
+.nine {
+    background-color: rgb(250, 130, 130);
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+.columntwo{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(212, 182, 7);
+    width: 25%;
+    height: 500px;
+    gap: 5px;
+}
+
+.three {
+    background-color: bisque;
+    height: 250px;
+   
+}
+
+.six {
+    background-color: rgb(88, 56, 18);
+    height: 250px;
+      
+}
+
+.columnthree{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(64, 0, 143);
+    width: 25%;
+    height: 500px;
+    gap: 5px;
+}
+
+.four {
+    background-color: rgb(235, 140, 215);
+    height: 250px;
+   
+}
+
+.eight {
+    background-color: rgb(163, 136, 103);
+    height: 250px;
+}
+
+.columnfour{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(1, 32, 32);
+    width: 25%;
+    height: 500px;
+    gap: 5px;
+}
+
+.five {
+    background-color: rgb(72, 47, 147);
+    height: 166.7px;
+   
+}
+
+.ten{
+    background-color: rgb(194, 139, 234);
+    height: 166.7px;
+}
+
+.eleven {
+    background-color: rgb(69, 144, 206);
+    height: 166.7px;
+   
+}
+

@@ -1,0 +1,37 @@
+/* div #small{
+    background-color: wheat;
+    font-size: 42px;
+}
+
+div, span, h1, p {
+    background-color: darkmagenta;
+    font-size: 45px;
+} */
+
+/* div p{
+    background-color: aqua;
+    font-size: 35px;
+} */
+/* 
+div + p {
+    background-color: red;
+    font-size: 55px;
+} */
+
+/* div ~ p {
+    background-color: rgb(64, 11, 11);
+} */
+
+p::first-line {
+    color: rgb(116, 44, 183);
+}
+
+h3::first-letter {
+    color: yellowgreen;
+    font-size: 36px;
+}
+
+h4::first-letter {
+    color: grey;
+    font-size: 38px;
+}

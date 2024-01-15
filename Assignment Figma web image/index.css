@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 32px;
+    padding: 8px 24px;
+    background-color: blueviolet;
+
+}
+
+.authentication-container {
+    display: none;
+}
+
+@media screen and (min-width: 599px) {
+    
+}

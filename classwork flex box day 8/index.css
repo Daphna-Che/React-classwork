@@ -1,0 +1,102 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: darkturquoise;
+    height: 500px;
+    text-align: center;
+
+  
+}
+
+.column-A {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 33.3%;
+    height: 500px;
+    gap: 5px;
+}
+.a {
+    background-color: lightskyblue;
+    color: rgb(12, 12, 12);
+    height: 150px;
+    width: 100%;
+    }
+
+ .wrapperA  {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    gap: 10px;
+ }
+ 
+ .AB {
+    background-color: maroon;
+    height: 100px;
+    width: 100%;
+ }
+
+ .wrapperABBABC {
+    display: flex;
+    /* background-color: red; */
+    height: 250px;
+    gap: 15px;
+    width: 100%;
+ }
+
+ .ABB, .ABC {
+    width: 50%;
+    background-color: #ccc;
+
+ }
+
+
+
+.column-B {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    width: 33.3%;
+    height: 500px;
+    gap: 5px;
+}
+
+.B {
+    background-color: royalblue;
+    color: rosybrown;
+    height: 150px;
+    width: 100%;
+}
+
+.wrapperBB {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    gap: 10px;
+    width: 100%;
+}
+
+.wrapperBCBB {
+    display: flex;
+    height: 250px;
+    gap: 10px;
+}
+.BC, .BB {
+    width: 50%;
+    background-color: red;
+}
+
+.BA {
+    background-color: darkolivegreen;
+    height: 100px;
+}
+
+
+
+.column-C {
+    border: 2px rgb(123, 3, 93);
+    width: 33.3%;
+    height: 500px;
+    color: black;
+}

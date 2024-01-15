@@ -1,0 +1,54 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+.flex-container {
+    border-radius: 8px;
+}
+
+.Header {
+    background-color: blueviolet;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+    height: 150px;
+}
+
+.side {
+    display: flex;
+    border: 2px solid red;
+    width: 100%;
+    gap: 10px;
+    height: 400px;
+}
+
+.side-1 {
+    background-color: aquamarine;
+    color: #ffff;
+    width: 40%;
+    ;
+}
+
+.side-2 {
+    gap: 10px;
+    width: 55%;
+    background-color: aqua;
+}
+
+.side-3 {
+    width: 40%;
+    background-color: rgb(101, 60, 6);
+}
+
+.footer {
+    background-color: orange;
+    height: 150px;
+    width: 100%;
+}
+

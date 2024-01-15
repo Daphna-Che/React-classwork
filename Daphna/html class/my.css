@@ -1,0 +1,21 @@
+/* h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    border: 8px solid yellow;
+}
+
+a,
+span{
+border: 2px solid blue;
+} */
+
+h1{
+    background-color: aquamarine;
+}
+
+#head5{
+    background-color: blanchedalmond;
+}
